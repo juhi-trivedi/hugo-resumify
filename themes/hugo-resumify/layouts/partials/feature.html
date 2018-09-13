@@ -1,0 +1,27 @@
+{{ if .Site.Params.feature.enable }}
+<section class="feature-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                {{ with .Site.Params.feature.title }}<h1>{{ . }}</h1>{{ end }}
+                {{ with .Site.Params.feature.content }}<p>{{ . | safeHTML }}</p>{{ end }}
+            </div>
+            {{ range $index, $element := .Site.Data.feature.item }}            
+            <div class="col-md-4 col-sm-4">
+                <div class="feature-block fadeInUp animated" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <div class="media-left">
+                        <div class="icon">
+                            {{ with .icon }}<i class="{{ . }}"></i>{{ end }}
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        {{ with .title }}<h4 class="media-heading">{{ . }}</h4>{{ end }}
+                        {{ with .description }}<p>{{ . }}</p>{{ end }}
+                    </div>
+                </div>     
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
