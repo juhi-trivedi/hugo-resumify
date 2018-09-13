@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 text-center">
-                {{ with .Site.Params.feature.title }}<h1>{{ . }}</h1>{{ end }}
+                {{ with .Site.Params.feature.title }}<h2>{{ . }}</h2>{{ end }}
                 {{ with .Site.Params.feature.subtitle }}<p>{{ . | safeHTML }}</p>{{ end }}
             </div>
             {{ range $index, $element := .Site.Data.feature.item }}            
