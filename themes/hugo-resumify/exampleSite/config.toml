@@ -30,6 +30,10 @@ theme = "hugo-resumify"
     home = "Home"
     logo = "images/logo.png"
     dateFormat = "6 January 2006"
+    twitter = "https://twitter.com/firstname_lastname"
+    googleplus = "https://plus.google.com/firstname_lastname/"
+    linkedin = "https://linkedin.com/in/firstname_lastname/"
+    facebook = "https://facebook.com/firstname_lastname/"
 
     # Banner Section
     [params.banner]
