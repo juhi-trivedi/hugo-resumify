@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Resumify | A Responsive CV Bootstrap-Hugo Template"
 theme = "hugo-resumify"

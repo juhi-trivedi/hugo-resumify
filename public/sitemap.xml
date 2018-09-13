@@ -3,84 +3,84 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/blog/</loc>
+    <loc>/blog/</loc>
     <lastmod>2018-07-15T12:32:37+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/blog/a-new-year-a-new-posibility/</loc>
+    <loc>/blog/a-new-year-a-new-posibility/</loc>
     <lastmod>2018-07-15T12:29:40+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/blog/building-an-online-audience/</loc>
+    <loc>/blog/building-an-online-audience/</loc>
     <lastmod>2018-07-15T12:27:38+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/blog/space-shouldnt-be-the-final-frontier/</loc>
+    <loc>/blog/space-shouldnt-be-the-final-frontier/</loc>
     <lastmod>2018-07-15T12:21:58+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/contact/</loc>
+    <loc>/contact/</loc>
     <lastmod>2018-07-14T17:09:20+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2018-07-12T18:19:33+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/tags/business/</loc>
+    <loc>/tags/business/</loc>
     <lastmod>2018-07-15T12:21:58+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/inspiration/</loc>
+    <loc>/tags/inspiration/</loc>
     <lastmod>2018-07-15T12:29:40+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/internet/</loc>
+    <loc>/tags/internet/</loc>
     <lastmod>2018-07-15T12:27:38+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/motivation/</loc>
+    <loc>/tags/motivation/</loc>
     <lastmod>2018-07-15T12:29:40+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/people/</loc>
+    <loc>/tags/people/</loc>
     <lastmod>2018-07-15T12:21:58+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>/</loc>
     <lastmod>2018-07-15T12:29:40+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2018-07-15T12:21:58+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/tech/</loc>
+    <loc>/tags/tech/</loc>
     <lastmod>2018-07-15T12:27:38+06:00</lastmod>
     <priority>0</priority>
   </url>
