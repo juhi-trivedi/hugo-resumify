@@ -14,32 +14,32 @@
                 {{ "<!-- Social Media -->" | safeHTML }}
                 <ul class="social text-center text-md-right text-lg-right">
                     <li>
-                        {{ if isset .Site.Params "facebook" }}
+                        {{- if isset .Site.Params "facebook" }}
                         <a href="{{ .Site.Params.facebook }}" class="facebook">
                             <i class="ion-social-facebook"></i>
                         </a>
-                        {{ end }}
+                        {{- end }}
                     </li>
                     <li>
-                        {{ if isset .Site.Params "twitter" }}
+                        {{- if isset .Site.Params "twitter" }}
                         <a href="{{ .Site.Params.twitter }}" class="twitter">
                             <i class="ion-social-twitter"></i>
                         </a>
-                        {{ end }}
+                        {{- end }}
                     </li>
                     <li>
-                        {{ if isset .Site.Params "linkedin" }}
+                        {{- if isset .Site.Params "linkedin" }}
                         <a href="{{ .Site.Params.linkedin }}" class="linkedin">
                             <i class="ion-social-linkedin"></i>
                         </a>
-                        {{ end }}
+                        {{- end }}
                     </li>
                     <li>
-                        {{ if isset .Site.Params "googleplus" }}
+                        {{- if isset .Site.Params "googleplus" }}
                         <a href="{{ .Site.Params.googleplus }}" class="googleplus">
                             <i class="ion-social-googleplus"></i>
                         </a>
-                        {{ end }}
+                        {{- end }}
                     </li>
                 </ul>
             </div>
