@@ -1,35 +1,31 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Resumify | A Responsive CV Bootstrap-Hugo Template"
 theme = "hugo-resumify"
-
-# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
-
-# Site Menus
-[menu]
-    # Navbar Menus
+title = "Resumify | A Responsive CV Bootstrap-Hugo Template"
     [[menu.nav]]
-        name    = "About"
-        url     = "/about"
-        weight  = 2
+name = "Hire Me"
+url = "/contact"
+weight = 4
     [[menu.nav]]
+name = "Blog"
+url = "/blog"
+weight = 3
+[[menu.nav]]
         name    = "Pricing"
         url     = "/pricing"
-        weight  = 3
+weight = 2
     [[menu.nav]]
-        name    = "Blog"
-        url     = "/blog"
-        weight  = 4
-    [[menu.nav]]
-        name    = "Hire Me"
-        url     = "/contact"
-        weight  = 5
-
-# Site Params
+name = "About"
+url = "/about"
+weight = 1
 [params]
+dateFormat = "6 January 2006"
+facebook = "https://facebook.com/firstname_lastname/"
+googleplus = "https://plus.google.com/firstname_lastname/"
     home = "Home"
+linkedin = "https://linkedin.com/in/firstname_lastname/"
     logo = "images/logo.png"
-    dateFormat = "6 January 2006"
+<<<<<<< .mine
     facebook = "https://www.facebook.com/multidots"
     # twitter = "https://twitter.com/multidots"
     # googleplus = "https://plus.google.com/firstname_lastname/"
@@ -42,14 +38,28 @@ theme = "hugo-resumify"
         # twitter = "https://twitter.com/multidots"
 
     # Banner Section
+=======
+twitter = "https://twitter.com/firstname_lastname"
+[params.about]
+content = "Hi there, I’m a UI/UX Designer & Front End Developer from India. I have rich experience in web site design and building and customization, also I am good at wordpress. I love to talk with you about our unique.  <br> <br> Lorem ipsum dolor sit amet, magnam temporibus vero magni recusandae? Dolore, maxime prcon sectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero."
+enable = true
+title = "ABOUT ME"
+
+
+
+
+
+
+
+>>>>>>> .theirs
     [params.banner]
-        enable  = true
         bgImage = "images/slider.jpg"
-        heading = "Juhi Trivedi"
-        description = "I have rich experience in web site design and building and customization, also I am good at wordpress. I love to talk with you about some of my unique work experiences."
         btn     = true
         btnText = "Hire Me"
         btnURL  = "/contact"
+description = "I have rich experience in web site design and building and customization, also I am good at wordpress. I love to talk with you about some of my unique work experiences."
+enable = true
+heading = "Juhi Trivedi"
         sideimg = "images/working-banner.jpg"
         [[params.banner.flipText]]
             title   = "Front End Developer"
@@ -57,31 +67,17 @@ theme = "hugo-resumify"
             title   = "UI/UX Designer"
         [[params.banner.flipText]]
             title   = "Support Executive"
-
-    # Homepage About Section
-    [params.about]
-        enable  = true
-        title   = "ABOUT ME"
-        content = "Hi there, I’m a UI/UX Designer & Front End Developer from India. I have rich experience in web site design and building and customization, also I am good at wordpress. I love to talk with you about our unique.  <br> <br> Lorem ipsum dolor sit amet, magnam temporibus vero magni recusandae? Dolore, maxime prcon sectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero."
-
-    # Call to Action
     [params.cta]
-        enable  = true
-        title   = "SO WHAT YOU THINK ?"
-        content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
         btnText = "Contact with me"
         btnURL  = "/contact"
-
-    # Portfolio Section On Homepage
-    [params.portfolio]
+content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
         enable  = true
-        title   = "Latest Works"
-        subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
-
-    # Feature Product Section
+title = "SO WHAT YOU THINK ?"
     [params.feature]
         enable  = true
+subtitle = "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere <br> tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
         title   = "SOME OF OUR FEATURES WORKS"
-        subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere <br> tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
-
-    
+[params.portfolio]
+enable = true
+subtitle = "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
+title = "Latest Works"
