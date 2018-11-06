@@ -30,10 +30,16 @@ theme = "hugo-resumify"
     home = "Home"
     logo = "images/logo.png"
     dateFormat = "6 January 2006"
-    twitter = "https://twitter.com/firstname_lastname"
-    googleplus = "https://plus.google.com/firstname_lastname/"
-    linkedin = "https://linkedin.com/in/firstname_lastname/"
-    facebook = "https://facebook.com/firstname_lastname/"
+    facebook = "https://www.facebook.com/multidots"
+    # twitter = "https://twitter.com/multidots"
+    # googleplus = "https://plus.google.com/firstname_lastname/"
+    # linkedin = "https://linkedin.com/in/firstname_lastname/"
+
+    # Social Media Section
+    [params.social]
+        # enable  = true
+        # facebook = "https://www.facebook.com/multidots"
+        # twitter = "https://twitter.com/multidots"
 
     # Banner Section
     [params.banner]
